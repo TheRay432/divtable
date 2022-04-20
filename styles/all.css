@@ -91,6 +91,66 @@ body {
 }
 
 .tbody li {
-  padding: 1rem 0;
+  padding: 2rem 0;
+  border-bottom: 1px solid #c0bdbd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.lightBlue {
+  color: #71d2f5;
+}
+
+.tbody li.text_left {
+  text-align: left;
+}
+
+.illustrate {
+  border-bottom: 1.5px dashed gray;
+}
+
+.tr p.illustrate {
+  display: inline-block;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: #ed8a0a;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.disable {
+  color: gray;
+  font-size: 12px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0 15px gray;
+          box-shadow: 0 0 15px gray;
+  border-radius: 5px;
+}
+
+.btn_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn_container button {
+  border-radius: 5px;
+  border: 2px solid red;
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+  padding: 5px 5px;
+  margin: 5px 10px;
 }
 /*# sourceMappingURL=all.css.map */
